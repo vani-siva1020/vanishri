@@ -1,0 +1,10 @@
+name: vanishri
+ 
+on: push
+ 
+jobs:
+    vanishri-job: 
+     runs-on: ubuntu-latest 
+     steps:
+      - name: print vanishri job
+        run: echo "hello vanishri"
