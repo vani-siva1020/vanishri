@@ -8,12 +8,11 @@ jobs:
      steps:
       - name: print vanishri job
         run: echo "hello vanishri"
-        
       - name: Install python 
-         uses:actions/setuppython@v6
+        uses: actions/setuppython@v6
         with:
-          python-version: '3.10'
+           python-version: '3.10'
           
       - name: check python version
-       run: python --version
+        run: python --version
         
