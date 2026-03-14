@@ -8,3 +8,8 @@ jobs:
      steps:
       - name: print vanishri job
         run: echo "hello vanishri"
+   
+      - name: actions/setup-python@v6
+       with:
+         python-version: '3.10' 
+      - run: python my_script.py
